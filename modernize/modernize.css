@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    width: 990px;
+    margin: wrap;
+    background-color: black;
+    padding: 0 5px 0px 5px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    width: 930px;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#navbar {
+    background: linear-gradient(#525252, #262626);
+    padding: 10px;
+    width: 970px;
+    height: 20px;
+    clear: both;
+}
+#navbar a{
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    border-left: 1px solid black;
+    margin: 0;
+    font-size: 17px;
+}
+#navbar a:first-of-type {
+    opacity: 1;
+    margin-left: 15px;
+    border-left: 0;
+}
+#main img[alt*="woman"] {
+    border-bottom: 5px solid #3b3b3b;
+    width: 990px;
+    display: block;
+}
+#imgbottom {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+}
+.underimage h3{
+    color: #ec7b2a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.underimage {
+    width: 200px;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+    color: white;
+    margin: 0;
+
+}
+.underimage img {
+    margin: 0 10px 60px 0;
+    float: left;
+}
+#ad {
+    color: white;
+    padding: 20px;
+    background-image: repeating-linear-gradient(-45deg, #1a1a1a, #1a1a1a 1px, #050505 1px, #050505 4px);
+}
+#ad p, #ad h2 {
+    display: inline-block;
+    width: 700px;
+    padding: 10px;
+    margin: 0;
+}
+button {
+    float: right;
+    width: 180px;
+    
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#f29f61,#ef802e);
+    border: 0;
+    box-shadow: 1px 1px 2px black;
+    color: white;
+    font-size: 25px;
+}
+#portfolio {
+    clear: both;
+    padding: 20px;
+
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+}
+#portop {
+    padding: 20px 0 30px 0;
+}
+#portop h2 {
+    float: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#portop a {
+    float: right;
+    text-decoration: none;
+    color: #ec7b2a;
+    font-style: italic;
+
+}
+#porbot {
+    clear: both;
+    display: flex;
+    width: 930px;
+    justify-content: space-between;
+}
+.portpic {
+    width: 200px;
+}
+.portpic img {
+    border: 5px solid gray;
+    width: 190px;
+}
+.portpic h3{
+    color: #ec7b2a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 0 10px 0 ;
+}
+.portpic p {
+    color: white;
+    line-height: 22px;
+    font-size: 15px;
+}
+#back {
+    text-align: right;
+    color: gray;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 12px;
+}

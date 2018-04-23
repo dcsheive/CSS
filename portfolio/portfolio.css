@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    height: 50px;
+    width: 980px;
+    padding: 10px;
+    background-color:  #f2f2f2;
+
+}
+#header>h2 {
+    text-align: right;
+    float: right;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+#wrapper {
+    padding: 25px;
+    width: 950px;
+    height: 1000px;
+    background: radial-gradient(silver , #5e4a53 , black );
+    clear: both;
+    float: left;
+
+}
+#topbound {
+    width: 1000;
+
+}
+#me {
+    border: silver;
+    border-style: solid;
+    border-width: 5px;
+    width: 400px;
+    height: 265px;
+    float: left;
+    margin: 0;
+}
+#about {
+    width: 515px;
+    height: 275px;
+    background: linear-gradient(to right, white, lightgray);
+    float: right;
+}
+#abouttop {
+    height: 30px;
+    width: 495px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(lightgray, gray,lightgray);
+}
+p, #about>a {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bottombound {
+    clear: both;
+    width: 950;
+}
+.sub {
+    margin-top: 25px;
+    margin-right: 25px;
+    height: 700px;
+    width: 300px;
+    background: linear-gradient(to right, white, lightgray);
+    float: left;
+}
+.sub:last-of-type {
+    margin-right: 0;
+    float: right;
+}
+.top {
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    background: linear-gradient(lightgray, gray,lightgray);
+
+}
+.top>h2 , #abouttop>h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textarena {
+    height: 150px;
+
+
+}
+.lgimg {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+img {
+    width: 44px;
+    height: 45px;
+    display: inline-block;
+    margin:6px;
+}
+button {
+    border-radius: 10px;
+    background-color: #407d61;
+    margin: 50px auto;
+    display: block;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(92, 92, 92);
+    box-shadow: 5px 5px 5px rgb(92, 92, 92);
+    
+}
+#footer{
+    margin: wrap;
+    width: 1000px;
+    background-color:  #f2f2f2;
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+#footer>img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+#footer>a {
+    font-style: italic;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer p {
+    padding-top: 10px;
+}
+
+
