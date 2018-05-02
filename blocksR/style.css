@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 480px){
+    #wrapper {
+        width: 96vw;
+        height: 100vh;
+        padding: 1%;
+    }
+    #header{
+        background-color: green;
+        width: 100%;
+        height: 25%;
+        padding: 1%;
+    }
+    #main_content{
+        background-color: red;
+        width: 100%;
+        height: 70%;
+        padding: 1%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #sub {
+        width: 98%;
+        height: 60%;
+        display: inline-block;
+    }
+    .subcontents{
+        width: 90%;
+        height: 35%;
+        margin: 1%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    #advertisement{
+        height: 23%;
+        width: 90%;
+        background-color: purple;
+        display: block;
+        margin: 1%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 481px){
+    #wrapper {
+        width: 96vw;
+        height: 96vh;
+        padding: 1%;
+    }
+    #header{
+        background-color: green;
+        width: 100%;
+        height: 25%;
+        padding: 1%;
+    }
+    #main_content{
+        background-color: red;
+        width: 100%;
+        height: 120%;
+        padding: 1%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #sub {
+        width: 98%;
+        height: 52%;
+        display: inline-block;
+    }
+    .subcontents{
+        width: 47%;
+        height: 60%;
+        margin: 1%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    #advertisement{
+        height: 25%;
+        width: 96%;
+        background-color: purple;
+        display: block;
+        margin: 1%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 1023px){
+    #wrapper {
+        width: 96vw;
+        height: 96vh;
+        padding: 1%;
+    }
+    #header{
+        background-color: green;
+        width: 98%;
+        height: 25%;
+    }
+    #navigation{
+        background-color: blue; 
+        height: 50%;
+        width: 21%;
+        margin-top: 1%;
+        display: block;
+        float: left;
+    }
+    #main_content{
+        background-color: red;
+        width: 75%;
+        height: 70%;
+        padding: 1%;
+        margin-top: 1%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #sub {
+        width: 98%;
+        height: 52%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .subcontents{
+        width: 30.33%;
+        height: 98%;
+        margin: 1%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    #advertisement{
+        height: 30%;
+        width: 96%;
+        background-color: purple;
+        display: block;
+        margin: 1%;
+        margin-top: 5%;
+    }
+}
+
+
